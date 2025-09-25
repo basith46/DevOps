@@ -1,0 +1,25 @@
+# Stage 1: build
+FROM node:18-alpine AS build
+
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package*.json ./
+RUN npm install --production
+
+#copy source code
+COPY . .
+
+# Stage 2: production image
+FROM node:18-alpine
+
+WORKDIR /app
+
+#copy only the built app from previous stage
+COPY --from=build /app .
+
+# Expose port
+EXPOSE 3000
+
+# Command to run
+CMD ["node", "server.js"]
