@@ -1,0 +1,1275 @@
+Sep 23 05:20:09 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9599.[0m
+Sep 23 05:20:10 controlnode jenkins[42485]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:10 controlnode jenkins[42485]: Supported Java versions are: [17, 21]
+Sep 23 05:20:10 controlnode jenkins[42485]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9599 and the job result is failed.[0m
+Sep 23 05:20:10 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:10 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9700 and the job result is done.[0m
+Sep 23 05:20:10 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9700.[0m
+Sep 23 05:20:10 controlnode jenkins[42518]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:10 controlnode jenkins[42518]: Supported Java versions are: [17, 21]
+Sep 23 05:20:10 controlnode jenkins[42518]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:10 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9700 and the job result is failed.[0m
+Sep 23 05:20:11 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:11 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9801 and the job result is done.[0m
+Sep 23 05:20:11 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9801.[0m
+Sep 23 05:20:11 controlnode jenkins[42551]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:11 controlnode jenkins[42551]: Supported Java versions are: [17, 21]
+Sep 23 05:20:11 controlnode jenkins[42551]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:11 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:11 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:11 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9801 and the job result is failed.[0m
+Sep 23 05:20:12 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:12 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9902 and the job result is done.[0m
+Sep 23 05:20:12 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9902.[0m
+Sep 23 05:20:12 controlnode jenkins[42584]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:12 controlnode jenkins[42584]: Supported Java versions are: [17, 21]
+Sep 23 05:20:12 controlnode jenkins[42584]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:12 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:12 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:12 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9902 and the job result is failed.[0m
+Sep 23 05:20:13 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:13 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10003 and the job result is done.[0m
+Sep 23 05:20:13 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10003.[0m
+Sep 23 05:20:13 controlnode jenkins[42617]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:13 controlnode jenkins[42617]: Supported Java versions are: [17, 21]
+Sep 23 05:20:13 controlnode jenkins[42617]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:13 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:13 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:13 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10003 and the job result is failed.[0m
+Sep 23 05:20:14 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:14 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10104 and the job result is done.[0m
+Sep 23 05:20:14 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 23 05:20:14 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:14 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10104 and the job result is failed.[0m
+Sep 23 05:20:26 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10306.[0m
+Sep 23 05:20:27 controlnode jenkins[42680]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:27 controlnode jenkins[42680]: Supported Java versions are: [17, 21]
+Sep 23 05:20:27 controlnode jenkins[42680]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:27 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:27 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:27 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10306 and the job result is failed.[0m
+Sep 23 05:20:27 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:27 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10407 and the job result is done.[0m
+Sep 23 05:20:27 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10407.[0m
+Sep 23 05:20:28 controlnode jenkins[42713]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:28 controlnode jenkins[42713]: Supported Java versions are: [17, 21]
+Sep 23 05:20:28 controlnode jenkins[42713]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:28 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:28 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:28 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10407 and the job result is failed.[0m
+Sep 23 05:20:28 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:28 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10508 and the job result is done.[0m
+Sep 23 05:20:28 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10508.[0m
+Sep 23 05:20:29 controlnode jenkins[42746]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:29 controlnode jenkins[42746]: Supported Java versions are: [17, 21]
+Sep 23 05:20:29 controlnode jenkins[42746]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:29 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:29 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:29 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10508 and the job result is failed.[0m
+Sep 23 05:20:29 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:29 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10609 and the job result is done.[0m
+Sep 23 05:20:29 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10609.[0m
+Sep 23 05:20:30 controlnode jenkins[42779]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:30 controlnode jenkins[42779]: Supported Java versions are: [17, 21]
+Sep 23 05:20:30 controlnode jenkins[42779]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:30 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:30 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:30 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10609 and the job result is failed.[0m
+Sep 23 05:20:30 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:30 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10710 and the job result is done.[0m
+Sep 23 05:20:30 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10710.[0m
+Sep 23 05:20:31 controlnode jenkins[42812]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:20:31 controlnode jenkins[42812]: Supported Java versions are: [17, 21]
+Sep 23 05:20:31 controlnode jenkins[42812]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10710 and the job result is failed.[0m
+Sep 23 05:20:31 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:20:31 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10811 and the job result is done.[0m
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:20:31 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10811 and the job result is failed.[0m
+Sep 23 05:22:14 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11013.[0m
+Sep 23 05:22:14 controlnode jenkins[42889]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:22:14 controlnode jenkins[42889]: Supported Java versions are: [17, 21]
+Sep 23 05:22:14 controlnode jenkins[42889]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:22:14 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:22:14 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:14 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11013 and the job result is failed.[0m
+Sep 23 05:22:15 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:22:15 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11114 and the job result is done.[0m
+Sep 23 05:22:15 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11114.[0m
+Sep 23 05:22:15 controlnode jenkins[42922]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:22:15 controlnode jenkins[42922]: Supported Java versions are: [17, 21]
+Sep 23 05:22:15 controlnode jenkins[42922]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:22:15 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:22:15 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:15 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11114 and the job result is failed.[0m
+Sep 23 05:22:16 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:22:16 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11215 and the job result is done.[0m
+Sep 23 05:22:16 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11215.[0m
+Sep 23 05:22:16 controlnode jenkins[42955]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:22:16 controlnode jenkins[42955]: Supported Java versions are: [17, 21]
+Sep 23 05:22:16 controlnode jenkins[42955]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:22:16 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:22:16 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:16 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11215 and the job result is failed.[0m
+Sep 23 05:22:17 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:22:17 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11316 and the job result is done.[0m
+Sep 23 05:22:17 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11316.[0m
+Sep 23 05:22:18 controlnode jenkins[42989]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:22:18 controlnode jenkins[42989]: Supported Java versions are: [17, 21]
+Sep 23 05:22:18 controlnode jenkins[42989]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:22:18 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:22:18 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:18 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11316 and the job result is failed.[0m
+Sep 23 05:22:18 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:22:18 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11417 and the job result is done.[0m
+Sep 23 05:22:18 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11417.[0m
+Sep 23 05:22:19 controlnode jenkins[43022]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:22:19 controlnode jenkins[43022]: Supported Java versions are: [17, 21]
+Sep 23 05:22:19 controlnode jenkins[43022]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11417 and the job result is failed.[0m
+Sep 23 05:22:19 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:22:19 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11518 and the job result is done.[0m
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:22:19 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11518 and the job result is failed.[0m
+Sep 23 05:23:46 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11619.[0m
+Sep 23 05:23:47 controlnode jenkins[43105]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:23:47 controlnode jenkins[43105]: Supported Java versions are: [17, 21]
+Sep 23 05:23:47 controlnode jenkins[43105]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:23:47 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:23:47 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:47 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11619 and the job result is failed.[0m
+Sep 23 05:23:47 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:23:47 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11720 and the job result is done.[0m
+Sep 23 05:23:47 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11720.[0m
+Sep 23 05:23:48 controlnode jenkins[43138]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:23:48 controlnode jenkins[43138]: Supported Java versions are: [17, 21]
+Sep 23 05:23:48 controlnode jenkins[43138]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:23:48 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:23:48 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:48 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11720 and the job result is failed.[0m
+Sep 23 05:23:48 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:23:48 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11821 and the job result is done.[0m
+Sep 23 05:23:48 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11821.[0m
+Sep 23 05:23:49 controlnode jenkins[43171]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:23:49 controlnode jenkins[43171]: Supported Java versions are: [17, 21]
+Sep 23 05:23:49 controlnode jenkins[43171]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:23:49 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:23:49 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:49 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11821 and the job result is failed.[0m
+Sep 23 05:23:49 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:23:49 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11922 and the job result is done.[0m
+Sep 23 05:23:49 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11922.[0m
+Sep 23 05:23:50 controlnode jenkins[43204]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:23:50 controlnode jenkins[43204]: Supported Java versions are: [17, 21]
+Sep 23 05:23:50 controlnode jenkins[43204]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:23:50 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:23:50 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:50 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11922 and the job result is failed.[0m
+Sep 23 05:23:50 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:23:50 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12023 and the job result is done.[0m
+Sep 23 05:23:50 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12023.[0m
+Sep 23 05:23:51 controlnode jenkins[43237]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:23:51 controlnode jenkins[43237]: Supported Java versions are: [17, 21]
+Sep 23 05:23:51 controlnode jenkins[43237]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12023 and the job result is failed.[0m
+Sep 23 05:23:51 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:23:51 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12124 and the job result is done.[0m
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:23:51 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12124 and the job result is failed.[0m
+Sep 23 05:25:04 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12225.[0m
+Sep 23 05:25:05 controlnode jenkins[43389]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:25:05 controlnode jenkins[43389]: Supported Java versions are: [17, 21]
+Sep 23 05:25:05 controlnode jenkins[43389]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12225 and the job result is failed.[0m
+Sep 23 05:25:05 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 1.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:25:05 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12326 and the job result is done.[0m
+Sep 23 05:25:05 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12326.[0m
+Sep 23 05:25:05 controlnode jenkins[43422]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:25:05 controlnode jenkins[43422]: Supported Java versions are: [17, 21]
+Sep 23 05:25:05 controlnode jenkins[43422]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:05 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12326 and the job result is failed.[0m
+Sep 23 05:25:06 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 2.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:25:06 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12427 and the job result is done.[0m
+Sep 23 05:25:06 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12427.[0m
+Sep 23 05:25:07 controlnode jenkins[43455]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:25:07 controlnode jenkins[43455]: Supported Java versions are: [17, 21]
+Sep 23 05:25:07 controlnode jenkins[43455]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:25:07 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:25:07 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:07 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12427 and the job result is failed.[0m
+Sep 23 05:25:07 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 3.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:25:07 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12528 and the job result is done.[0m
+Sep 23 05:25:07 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12528.[0m
+Sep 23 05:25:08 controlnode jenkins[43488]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:25:08 controlnode jenkins[43488]: Supported Java versions are: [17, 21]
+Sep 23 05:25:08 controlnode jenkins[43488]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:25:08 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:25:08 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:08 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12528 and the job result is failed.[0m
+Sep 23 05:25:08 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 4.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:25:08 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12629 and the job result is done.[0m
+Sep 23 05:25:08 controlnode systemd[1]: Starting Jenkins Continuous Integration Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12629.[0m
+Sep 23 05:25:09 controlnode jenkins[43521]: Running with Java 11 from /usr/lib/jvm/java-11-openjdk-11.0.20.1.1-2.el9.x86_64, which is older than the minimum required version (Java 17).
+Sep 23 05:25:09 controlnode jenkins[43521]: Supported Java versions are: [17, 21]
+Sep 23 05:25:09 controlnode jenkins[43521]: See https://jenkins.io/redirect/java-support/ for more information.
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;39m[0;1;31m[0;1;39mjenkins.service: Main process exited, code=exited, status=1/FAILURE[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit process exited[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAn ExecStart= process belonging to unit jenkins.service has exited.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe process' exit code is 'exited' and its exit status is 1.[0m
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12629 and the job result is failed.[0m
+Sep 23 05:25:09 controlnode systemd[1]: jenkins.service: Scheduled restart job, restart counter is at 5.
+[0;38;5;245m░░ [0m[0;32mSubject: Automatic restarting of a unit has been scheduled[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mAutomatic restarting of the unit jenkins.service has been scheduled, as the result for[0m
+[0;38;5;245m░░[0m [0;32mthe configured Restart= setting for the unit.[0m
+Sep 23 05:25:09 controlnode systemd[1]: Stopped Jenkins Continuous Integration Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit jenkins.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit jenkins.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12730 and the job result is done.[0m
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Start request repeated too quickly.[0m
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mjenkins.service: Failed with result 'exit-code'.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Unit failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit jenkins.service has entered the 'failed' state with result 'exit-code'.[0m
+Sep 23 05:25:09 controlnode systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start Jenkins Continuous Integration Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit jenkins.service has failed[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://access.redhat.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit jenkins.service has finished with a failure.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12730 and the job result is failed.[0m
