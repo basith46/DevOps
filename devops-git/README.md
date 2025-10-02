@@ -22,10 +22,11 @@ Manage a DevOps project using Git best practices.
 
 ## Repo Structure
 devops-git/
-│── README.md
-│── TASKS.md
-│── .gitignore
-│── feature.py (sample feature)
+
+    │── README.md
+    │── TASKS.md
+    │── .gitignore
+    │── feature.py (sample feature)
 
 ## Outcome
 - Learned Git branching workflow.
